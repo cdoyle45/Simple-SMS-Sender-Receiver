@@ -40,11 +40,12 @@ public class MainActivity extends Activity {
         btnSendSMS.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v)
             {
-                sendSMS("5198721420", "Hi Dyl xoxoox");
+                // REPLACE THESE VALUES
+                sendSMS("Recipient Number Here", "Your Message Here");
                 /*
                 Intent i = new Intent(android.content.Intent.ACTION_VIEW);
-                i.putExtra("address", "2264483072");
-                i.putExtra("sms_body", "Hello");
+                i.putExtra("address", "Recipient Number Here");
+                i.putExtra("sms_body", "Your Message Here");
                 i.setType("vnd.android-dir/mms-sms");
                 startActivity(i);
                 */
